@@ -7,6 +7,13 @@ html {
     scroll-behavior: smooth;
 }
 
+
+.cabecalho{
+    padding: 0;
+    margin: 0;
+}
+
+
 .section-container{
     height: 100vh;
     width: 100%;
@@ -16,6 +23,7 @@ html {
 }
 
 .logo-container{
+    align-items: center;
     background-color:#fed470;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
@@ -30,10 +38,21 @@ html {
     margin-top: 0px;
 } 
 
+.novidades-container{
+    background-color: #080808;
+    text-align: center;
+    color: #fed470;
+    font-family: Gilroy;
+    src: url('gilroy.ttf');
+    font-size: 35pt;
+    font-weight: bold;
+}
+
 .background-section-one{
     background-image: url(../assets/bg2-bf.png);
     background-attachment: scroll;
-    background-size: 90vw;
+    background-size: contain;
+    background-color: #080808;
     background-repeat: no-repeat;
 
 }
@@ -67,9 +86,21 @@ input{
 
 }
 
+.footer-container{
+    padding-top: 20px;
+    background-color: #fed470;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 80px;
+}
+
 footer{
     height: 80px;
     text-align: center;
-    padding-top: 20px;
-    background-color: #fed470;
+    font-family: Gilroy;
+    src: url('Gilroy.ttf');
+    font-weight: bold;
+    background-color: #080808;
 }
