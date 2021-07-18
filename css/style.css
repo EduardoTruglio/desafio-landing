@@ -168,17 +168,15 @@ input{
     background-color: #080808;
 }
 
-.pack-container{
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 0px;
-    margin-top: 0px;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.pack{
+   align-items: center;
+   justify-content: center;
+   justify-items: center;
+   margin-left: auto;
+   margin-right: auto;
+   display: flex;
+   background-color: #080808;
+   
 }
 
 .footer-container{
