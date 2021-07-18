@@ -95,7 +95,9 @@ form{
     src: url('gilroy.ttf');
     color: whitesmoke;
     font-weight: bold;
-    font-size: 20pt;
+    font-size: 25pt;
+    align-items: center;
+    text-align: center;
 }
 
 .texto-form{
@@ -106,6 +108,7 @@ form{
     margin-bottom: 0px;
     padding-bottom: 0px;
     padding-top: 20px;
+    font-size: 17pt;
 }
 
 .botao-cadastro{
@@ -114,7 +117,7 @@ form{
     font-weight: bold;
     width: 200px;
     height: 50px;
-    background: #fed470 !important;
+    background-color: #fed470;
     font-size: 20pt;
     line-height: 41px;
     color: #000000;
@@ -159,7 +162,7 @@ input{
 
 .footer-container{
     padding-top: 20px;
-    background-color: #fed470;
+    bacolor: #fed470;
     border-top-right-radius: 40px;
     border-top-left-radius: 40px;
     border-bottom-left-radius: 0px;
